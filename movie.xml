@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<spt>
+<!--Specify Map -->
+<map file_path="$FTX_SPT/maps/Single_Lane_Road.xodr" />
+<!--Specify Time of the day -->
+<time_of_day value="noon" />
+<!-- Specify weather-->
+<weather value="clear"/>
+<!-- Specify actor params -->
+<actor_params actor_id="2"
+enable_collision_detection="True" time="0"/>
+<!--Specify Actors with its initial position, speed and
+acceleration-->
+<init>
+<actor actor_id="2" actor_type="vehicle">
+<dimension width="1.776" length="4.3"
+height="1.423" />
+<add_description color="green" model_tag="SEDAN"/>
+<position x= "2108.6200" y="725" yaw="4.324567"/>
+<speed x="-8.4678239"/>
+</actor>
+<actor actor_id="1" actor_type="ego">
+<dimension width="1.776" length="4.3"
+height="1.423" />
+<add_description color="red" model_tag="SEDAN"/>
+<position x= "3119.6200" y="855" yaw="4.324567"/>
+<speed x="-6.4678239"/>
+</actor>
+</init>
+</spt>

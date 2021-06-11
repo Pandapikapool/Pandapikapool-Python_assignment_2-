@@ -1,0 +1,9 @@
+Report for tag: FTX_QA_COLLISIONS
+Test name,average,max,check_type,total_nof_runs,min,count
+tc_ctrl_oncoming_with_random_weather,None,None,None,1,None,0
+tc_ctrl_lead_vehicle_cut_out_in_fog,None,None,None,1,None,0
+tc_ctrl_cut_in_during_rain,None,None,None,1,None,0
+tc_ctrl_1_cut_in,None,None,None,1,None,0
+tc_ctrl_rain_on_highway,None,None,None,1,None,0
+tc_ctrl_11_double_cut_in,None,None,None,1,None,0
+tc_ctrl_drive_in_cloudy_curve,None,None,None,1,None,0

@@ -1,0 +1,93 @@
+file_ver, 2.0
+version, SI-83-vires-left_hand_traffic.fbf5db5529.
+id, 20210428_145725_14845_ZT07
+start_time, 2021-04-28T14:57:25.328923
+end_time, 2021-04-28T14:58:46.418328
+seed, 1
+test_file, generated_test.sdl
+status, COMPLETED
+simulation_time, 17560
+recorded_video_file, 
+debug_data_recorded, false
+
+runtime_data 
+testName, foretify_gen_top
+osUser, anjana
+seed, 1
+version, 1.1
+mainIssueCategory, other
+mainIssueDetails, rel to DUT time: 2640 car_id: 12 TTC: 2230 ms - does not comply with max acceleration policy: 4.684mpsps
+mainIssueFullMessage, Other warning (acceleration_policy_npc): rel to DUT time: 2640 car_id: 12 TTC: 2230 ms - does not comply with max acceleration policy: 4.684mpsps
+mainIssueKind, acceleration_policy_npc
+mainIssueNormalizedDetails, rel to DUT time: <> car_id: <> TTC: <> ms - does not comply with max acceleration policy: <>
+mainIssueReason, 
+mainIssueResult, Other warning
+mainIssueSeverity, warning
+mainIssueTime, 2640
+status, PASSED
+
+bucketSummaries
+qualifiedName, top.info.main_issue.kind__severity.acceleration_policy_npc,warning
+hits, 1
+qualifiedName, top.info.main_issue.normalized_details.rel to DUT time: <> car_id: <> TTC: <> ms - does not comply with max acceleration policy: <>
+hits, 1
+qualifiedName, top.info.main_issue.full_message.Other warning (acceleration_policy_npc): rel to DUT time: 2640 car_id: 12 TTC: 2230 ms - does not comply with max acceleration policy: 4.684mpsps
+hits, 1
+qualifiedName, top.info.main_issue.time.2.640000
+hits, 1
+qualifiedName, top.info.main_issue.details.rel to DUT time: 2640 car_id: 12 TTC: 2230 ms - does not comply with max acceleration policy: 4.684mpsps
+hits, 1
+qualifiedName, top.info.main_issue.kind.acceleration_policy_npc
+hits, 1
+qualifiedName, top.info.main_issue.category.other
+hits, 1
+qualifiedName, top.info.run.map./work/anjana/ftx/qa/odr_maps/Germany_2018.xodr
+hits, 1
+qualifiedName, dut.lead_vehicle.end.me_side_cross.other,other
+hits, 1
+qualifiedName, dut.lead_vehicle.end.me_dut_max_acceleration.[0..1]
+hits, 1
+qualifiedName, car.drive.end.me_dut_max_acceleration.[0..1]
+hits, 2
+qualifiedName, dut.lead_vehicle.end.me_dut_max_braking.[0..1]
+hits, 1
+qualifiedName, car.drive.end.me_rel_speed_on_collision.[0..1]
+hits, 2
+qualifiedName, top.info.model.foretify_version.SI-83-vires-left_hand_traffic.fbf5db5529.
+hits, 1
+qualifiedName, dut.lead_vehicle.end.me_dut_side_on_collision.other
+hits, 1
+qualifiedName, car.drive.end.me_dut_collision.FALSE
+hits, 2
+qualifiedName, dut.lead_vehicle.end.me_dut_max_jerk.[0..1]
+hits, 1
+qualifiedName, dut.lead_vehicle.end.me_rel_speed_on_collision.[0..1]
+hits, 1
+qualifiedName, top.info.main_issue.severity.warning
+hits, 1
+qualifiedName, car.drive.end.me_other_car_side_on_collision.other
+hits, 2
+qualifiedName, dut.lead_vehicle.end.me_dut_collision.FALSE
+hits, 1
+qualifiedName, top.info.main_issue.result.Other warning
+hits, 1
+qualifiedName, dut.lead_vehicle.end.me_other_car_side_on_collision.other
+hits, 1
+qualifiedName, car.drive.end.me_dut_lane_shifts.[0..1]
+hits, 2
+qualifiedName, car.drive.end.me_dut_side_on_collision.other
+hits, 2
+qualifiedName, car.drive.end.me_dut_max_braking.[0..1]
+hits, 2
+qualifiedName, car.drive.end.me_dut_max_jerk.[0..1]
+hits, 2
+qualifiedName, top.info.main_issue.category__severity.other,warning
+hits, 1
+qualifiedName, car.drive.end.me_side_cross.other,other
+hits, 2
+qualifiedName, dut.lead_vehicle.end.me_dut_lane_shifts.[0..1]
+hits, 1
+qualifiedName, car.drive.end.me_dut_stopped.FALSE
+hits, 2
+qualifiedName, dut.lead_vehicle.end.me_dut_stopped.TRUE
+hits, 1

@@ -1,0 +1,67 @@
+{
+    "Report for tag: FTX_QA_COLLISIONS": [
+        {
+            "Test name": "tc_ctrl_oncoming_with_random_weather",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        },
+        {
+            "Test name": "tc_ctrl_lead_vehicle_cut_out_in_fog",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        },
+        {
+            "Test name": "tc_ctrl_cut_in_during_rain",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        },
+        {
+            "Test name": "tc_ctrl_1_cut_in",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        },
+        {
+            "Test name": "tc_ctrl_rain_on_highway",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        },
+        {
+            "Test name": "tc_ctrl_11_double_cut_in",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        },
+        {
+            "Test name": "tc_ctrl_drive_in_cloudy_curve",
+            "average": "None",
+            "max": "None",
+            "check_type": "None",
+            "total_nof_runs": "1",
+            "min": "None",
+            "count": "0"
+        }
+    ]
+}

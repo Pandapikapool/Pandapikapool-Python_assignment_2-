@@ -1,0 +1,10 @@
+map_file_path,$FTX_SPT/maps/Single_Lane_Road.xodr
+time_of_day_value,noon
+weather_value,clear
+actor_params_actor_id,2
+actor_params_enable_collision_detection,True
+actor_params_time,0
+
+init_actor,actor_id,actor_type,dimension_width,dimension_length,dimension_height,add_description_color,add_description_model_tag,position_x,position_y,position_yaw,speed_x
+,2,vehicle,1.776,4.3,1.423,green,SEDAN,2108.6200,725,4.324567,-8.4678239
+,1,ego,1.776,4.3,1.423,red,SEDAN,3119.6200,855,4.324567,-6.4678239
